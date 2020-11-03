@@ -1,0 +1,12 @@
+REQUIREMENTS
+
+Book Inventory is an API built with Go that manage books, availability and show information about books.
+Below are some requirements :
+1. can show list books of the library, including status(borrowed/not, amount of books)
+2. can show book detail including title, description, category, writer, short synopsis
+3. normal user can only show list books
+4. if normal user want to lend books, it required to register to the system
+5. max lending books 3 books
+6. max day of lending books are 3 days, after max day, account will be suspend
+7. account that is suspended will be activated after admin take an actions
+8. admin system can add, update, and delete books
